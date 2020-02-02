@@ -1,0 +1,73 @@
+import java.io.*;
+import java.util.*;
+import java.util.Scanner;
+public class Statistics
+{
+    private double total;
+    private double sum;
+    /**
+     * This sets the total and sum to 0. 
+     */
+    public Statistics()
+    {
+        try{
+        File f = new File("Z:\\Intermediate Programming\\BlueJ Projects\\Semester 2\\numbers.txt");
+        Scanner in = new Scanner(f);
+        }catch(IOException i){
+            System.out.println("error: " +i.getMessage());
+        }
+    }
+    public static int mode(int[] input) {
+       int[] count = new int[101];
+       for (int i=0; i < input.length; i++) {
+        count[input[i]]++;
+       }
+       int index = count.length-1;
+       for (int i=count.length-2; i >=0; i--) {
+        if (count[i] >= count[index])
+            index = i;
+       }
+       return index;
+    }
+    public void average()
+     {
+        double sum = 0;
+        int lines = 0;     
+        try{
+        File f = new File("Z:\\Intermediate Programming\\BlueJ Projects\\Semester 2\\numbers.txt");
+        Scanner in = new Scanner(f);     
+        while (in.hasNextDouble()){
+        sum += in.nextDouble();
+        lines++;
+        double average = sum / lines;
+       }  
+       }catch(IOException i){
+            System.out.println("error: " +i.getMessage());
+        } 
+    }
+    public void deviation()
+    {
+        double [] values = {19,27,91,12,54,1,3,12,52,65,28,98,80,98,77,69,73,27,82,23,12,66,45,70,93,31,51,59,55,10,1,75,49,35,18,97,70,86,59,65,35,31,54,100};
+        double sum=0;
+        double finalsum = 0;
+        double average = 0;
+        for( double i : values) {
+         finalsum =   (sum += i);
+        }
+        average = finalsum/(values.length);
+        System.out.println("Average: "+ average);
+        double sumX=0;
+        double finalsumX=0;
+        double[] x1_average = new double[2000];
+        for (int i = 0; i<values.length; i++){
+            double fvalue = (Math.pow((values[i] - average), 2));
+            x1_average[i]= fvalue;
+            System.out.println("test: "+ fvalue);
+        }
+        for( double i : x1_average) {
+             finalsumX =   (sumX += i);
+            }
+        Double AverageX = finalsumX/(values.length);
+    }
+    
+}

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Statistics()
+comment0.text=\r\n\ This\ sets\ the\ total\ and\ sum\ to\ 0.\ \r\n
+comment1.params=input
+comment1.target=int\ mode(int[])
+comment2.params=
+comment2.target=void\ average()
+comment3.params=
+comment3.target=void\ deviation()
+numComments=4

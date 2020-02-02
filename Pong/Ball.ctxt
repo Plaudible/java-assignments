@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ update()
+comment1.params=g
+comment1.target=void\ paint(java.awt.Graphics)
+comment10.params=
+comment10.target=java.lang.String\ toPlayer()
+comment11.params=
+comment11.target=java.lang.String\ toComputer()
+comment2.params=
+comment2.target=void\ reverseDirection()
+comment3.params=
+comment3.target=void\ reverseDirectionY()
+comment4.params=
+comment4.target=void\ hitWall()
+comment5.params=computer
+comment5.target=void\ checkCollisionWith(Computer)
+comment6.params=
+comment6.target=int\ getX()
+comment7.params=
+comment7.target=int\ getY()
+comment8.params=
+comment8.target=int\ getPlayerScore()
+comment9.params=
+comment9.target=int\ getComputerScore()
+numComments=12

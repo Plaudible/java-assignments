@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=d1\ d2\ d3\ wt
+comment0.target=CheckMail(double,\ double,\ double,\ double)
+comment0.text=\r\n\ What\ is\ love?\ Baby\ don't\ hurt\ me,\ don't\ hurt\ me,\ no\ moar.\r\n
+comment1.params=
+comment1.target=void\ calculateValid()
+comment2.params=
+comment2.target=void\ calculateGirth()
+numComments=3

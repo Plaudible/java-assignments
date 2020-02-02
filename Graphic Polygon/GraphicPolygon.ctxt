@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numSides\ sideLength
+comment0.target=GraphicPolygon(int,\ double)
+comment0.text=\r\n\ Constructor\ for\ class\ Graphic\ Polygon\r\n
+comment1.params=numSides\ sideLength\ x\ y
+comment1.target=GraphicPolygon(int,\ double,\ double,\ double)
+comment1.text=\r\n\ Constructs\ a\ polygon\ with\ center\ (x,y)\r\n
+comment2.params=x\ y
+comment2.target=void\ moveTo(double,\ double)
+comment2.text=\r\n\ Moves\ the\ center\ to\ (x,y)\r\n
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\r\n\ Draws\ the\ polygon\ \r\n
+numComments=4

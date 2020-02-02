@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FractalTree()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FractalTree\r\n
+comment1.params=g\ x1\ y1\ angle\ depth
+comment1.target=void\ drawTree(java.awt.Graphics,\ int,\ int,\ double,\ int)
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+numComments=3

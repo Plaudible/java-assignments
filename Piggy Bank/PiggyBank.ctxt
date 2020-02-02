@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=findPennies\ findNickels\ findDimes\ findQuarters
+comment0.target=PiggyBank(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PiggyBank\r\n
+comment1.params=
+comment1.target=int\ getPennies()
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ ^\ DON'T\ TELL\ ME\ WHAT\ TO\ DO\ ^\r\n\ @Potato\r\n\ @Of\ returnings\ \r\n
+comment2.params=
+comment2.target=int\ getNickels()
+comment3.params=
+comment3.target=int\ getDimes()
+comment4.params=
+comment4.target=int\ getQuarters()
+comment5.params=newPennies
+comment5.target=void\ setPennies(int)
+comment6.params=newNickels
+comment6.target=void\ setNickels(int)
+comment7.params=newDimes
+comment7.target=void\ setDimes(int)
+comment8.params=newQuarters
+comment8.target=void\ setQuarters(int)
+numComments=9

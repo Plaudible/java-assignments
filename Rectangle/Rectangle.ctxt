@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height
+comment0.target=Rectangle(double,\ double,\ double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Rectangle\ lol\ lemons\r\n
+comment1.params=
+comment1.target=double\ getPerimeter()
+comment2.params=
+comment2.target=double\ getArea()
+comment3.params=
+comment3.target=void\ draw()
+numComments=4

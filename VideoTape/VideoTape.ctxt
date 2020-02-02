@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=VideoTape()
+comment1.params=title\ length\ lent
+comment1.target=VideoTape(java.lang.String,\ int,\ boolean)
+comment2.params=title
+comment2.target=void\ setTitle(java.lang.String)
+comment3.params=length
+comment3.target=void\ setLength(int)
+comment4.params=lent
+comment4.target=void\ setBoolean(boolean)
+comment5.params=
+comment5.target=java.lang.String\ getTitle()
+comment6.params=
+comment6.target=int\ getLength()
+comment7.params=
+comment7.target=boolean\ getLent()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

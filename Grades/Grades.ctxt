@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=GPA
+comment0.target=double\ grades(double)
+comment1.params=classes
+comment1.target=int\ classes(int)
+numComments=2

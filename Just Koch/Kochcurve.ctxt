@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Kochcurve()
+comment1.params=level\ length
+comment1.target=void\ drawKochcurve(double,\ double)
+numComments=2
